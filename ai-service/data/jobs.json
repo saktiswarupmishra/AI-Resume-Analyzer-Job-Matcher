@@ -1,0 +1,502 @@
+[
+  {
+    "title": "Senior Frontend Developer",
+    "company": "TechNova Inc.",
+    "location": "San Francisco, CA (Remote)",
+    "category": "frontend",
+    "salary": "$130,000 - $170,000",
+    "description": "Build modern web applications using React and TypeScript. Lead frontend architecture decisions and mentor junior developers.",
+    "required_skills": ["react", "typescript", "javascript", "css", "html", "next.js", "graphql", "git"],
+    "url": "https://example.com/jobs/1"
+  },
+  {
+    "title": "Full Stack Engineer",
+    "company": "CloudBase Solutions",
+    "location": "New York, NY",
+    "category": "fullstack",
+    "salary": "$120,000 - $160,000",
+    "description": "Develop and maintain full-stack applications using Node.js and React. Work with cloud services and CI/CD pipelines.",
+    "required_skills": ["node.js", "react", "typescript", "postgresql", "aws", "docker", "git", "rest"],
+    "url": "https://example.com/jobs/2"
+  },
+  {
+    "title": "Backend Developer",
+    "company": "DataStream Corp",
+    "location": "Austin, TX",
+    "category": "backend",
+    "salary": "$110,000 - $150,000",
+    "description": "Design and build scalable APIs and microservices. Optimize database performance and implement security best practices.",
+    "required_skills": ["python", "fastapi", "postgresql", "redis", "docker", "kubernetes", "aws", "sql"],
+    "url": "https://example.com/jobs/3"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "AI Dynamics",
+    "location": "Seattle, WA (Hybrid)",
+    "category": "ai",
+    "salary": "$150,000 - $200,000",
+    "description": "Develop and deploy ML models for production. Work on NLP, computer vision, and recommendation systems.",
+    "required_skills": ["python", "tensorflow", "pytorch", "machine learning", "deep learning", "nlp", "docker", "aws"],
+    "url": "https://example.com/jobs/4"
+  },
+  {
+    "title": "DevOps Engineer",
+    "company": "InfraScale",
+    "location": "Chicago, IL (Remote)",
+    "category": "devops",
+    "salary": "$125,000 - $165,000",
+    "description": "Manage cloud infrastructure, CI/CD pipelines, and container orchestration. Ensure system reliability and scalability.",
+    "required_skills": ["aws", "docker", "kubernetes", "terraform", "jenkins", "linux", "python", "git"],
+    "url": "https://example.com/jobs/5"
+  },
+  {
+    "title": "React Native Developer",
+    "company": "MobileFirst Labs",
+    "location": "Miami, FL",
+    "category": "mobile",
+    "salary": "$100,000 - $140,000",
+    "description": "Build cross-platform mobile applications using React Native. Integrate native modules and optimize performance.",
+    "required_skills": ["react native", "javascript", "typescript", "react", "ios", "android", "git", "rest"],
+    "url": "https://example.com/jobs/6"
+  },
+  {
+    "title": "Data Scientist",
+    "company": "Insight Analytics",
+    "location": "Boston, MA",
+    "category": "data",
+    "salary": "$120,000 - $160,000",
+    "description": "Analyze large datasets, build predictive models, and create visualizations to drive business decisions.",
+    "required_skills": ["python", "r", "sql", "machine learning", "pandas", "numpy", "tableau", "data analysis"],
+    "url": "https://example.com/jobs/7"
+  },
+  {
+    "title": "Vue.js Frontend Developer",
+    "company": "WebCraft Studios",
+    "location": "Denver, CO (Remote)",
+    "category": "frontend",
+    "salary": "$95,000 - $130,000",
+    "description": "Build responsive and interactive web interfaces using Vue 3 and the Composition API. Collaborate with designers.",
+    "required_skills": ["vue", "vue.js", "javascript", "typescript", "css", "html", "nuxt.js", "git"],
+    "url": "https://example.com/jobs/8"
+  },
+  {
+    "title": "Cloud Architect",
+    "company": "SkyNet Solutions",
+    "location": "Remote",
+    "category": "cloud",
+    "salary": "$160,000 - $220,000",
+    "description": "Design and implement multi-cloud architectures. Lead migration projects and establish cloud governance policies.",
+    "required_skills": ["aws", "azure", "gcp", "terraform", "kubernetes", "docker", "microservices", "linux"],
+    "url": "https://example.com/jobs/9"
+  },
+  {
+    "title": "Java Backend Developer",
+    "company": "Enterprise Systems Inc.",
+    "location": "Dallas, TX",
+    "category": "backend",
+    "salary": "$110,000 - $145,000",
+    "description": "Develop enterprise Java applications using Spring Boot. Work with microservices architecture and cloud deployment.",
+    "required_skills": ["java", "spring boot", "spring", "sql", "postgresql", "docker", "rest", "git"],
+    "url": "https://example.com/jobs/10"
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "company": "SecureNet Corp",
+    "location": "Washington, DC",
+    "category": "security",
+    "salary": "$100,000 - $140,000",
+    "description": "Monitor security systems, conduct vulnerability assessments, and respond to security incidents.",
+    "required_skills": ["linux", "python", "sql", "aws", "git", "docker"],
+    "url": "https://example.com/jobs/11"
+  },
+  {
+    "title": "UI/UX Designer & Developer",
+    "company": "DesignPulse",
+    "location": "Los Angeles, CA",
+    "category": "design",
+    "salary": "$90,000 - $130,000",
+    "description": "Design and implement beautiful user interfaces. Create design systems and conduct user research.",
+    "required_skills": ["figma", "css", "html", "javascript", "react", "adobe xd", "photoshop"],
+    "url": "https://example.com/jobs/12"
+  },
+  {
+    "title": "Python Developer",
+    "company": "CodeCraft Solutions",
+    "location": "Portland, OR (Hybrid)",
+    "category": "backend",
+    "salary": "$100,000 - $135,000",
+    "description": "Develop Python-based web applications and APIs. Work with Django/FastAPI and integrate third-party services.",
+    "required_skills": ["python", "django", "fastapi", "postgresql", "redis", "docker", "rest", "git"],
+    "url": "https://example.com/jobs/13"
+  },
+  {
+    "title": "Angular Developer",
+    "company": "FrontEdge Technologies",
+    "location": "Atlanta, GA",
+    "category": "frontend",
+    "salary": "$95,000 - $130,000",
+    "description": "Build enterprise-grade SPAs using Angular. Implement complex state management and API integrations.",
+    "required_skills": ["angular", "typescript", "javascript", "css", "html", "rest", "git", "agile"],
+    "url": "https://example.com/jobs/14"
+  },
+  {
+    "title": "Blockchain Developer",
+    "company": "Web3 Innovations",
+    "location": "Remote",
+    "category": "blockchain",
+    "salary": "$140,000 - $190,000",
+    "description": "Develop smart contracts and decentralized applications. Work with Ethereum, Solidity, and DeFi protocols.",
+    "required_skills": ["solidity", "ethereum", "blockchain", "web3", "javascript", "react", "node.js", "git"],
+    "url": "https://example.com/jobs/15"
+  },
+  {
+    "title": "Android Developer",
+    "company": "AppWare Studios",
+    "location": "San Jose, CA",
+    "category": "mobile",
+    "salary": "$110,000 - $150,000",
+    "description": "Build native Android applications using Kotlin. Implement Material Design and optimize app performance.",
+    "required_skills": ["kotlin", "android", "java", "firebase", "rest", "git", "sql"],
+    "url": "https://example.com/jobs/16"
+  },
+  {
+    "title": "iOS Developer",
+    "company": "SwiftLabs",
+    "location": "Cupertino, CA",
+    "category": "mobile",
+    "salary": "$115,000 - $155,000",
+    "description": "Develop iOS applications using Swift and SwiftUI. Integrate with backend services and optimize for performance.",
+    "required_skills": ["swift", "ios", "firebase", "rest", "git"],
+    "url": "https://example.com/jobs/17"
+  },
+  {
+    "title": "Site Reliability Engineer",
+    "company": "UptimeFirst",
+    "location": "Remote",
+    "category": "devops",
+    "salary": "$135,000 - $175,000",
+    "description": "Ensure platform reliability and performance. Build monitoring systems and automate infrastructure management.",
+    "required_skills": ["linux", "python", "docker", "kubernetes", "aws", "terraform", "jenkins", "git"],
+    "url": "https://example.com/jobs/18"
+  },
+  {
+    "title": "Data Engineer",
+    "company": "PipelineIO",
+    "location": "Seattle, WA",
+    "category": "data",
+    "salary": "$125,000 - $165,000",
+    "description": "Design and build data pipelines. Work with big data technologies and ensure data quality and accessibility.",
+    "required_skills": ["python", "sql", "aws", "docker", "postgresql", "redis", "linux", "git"],
+    "url": "https://example.com/jobs/19"
+  },
+  {
+    "title": "Technical Lead",
+    "company": "ScaleUp Corp",
+    "location": "New York, NY",
+    "category": "leadership",
+    "salary": "$150,000 - $200,000",
+    "description": "Lead a team of 8 engineers. Drive architecture decisions, code reviews, and technical strategy.",
+    "required_skills": ["javascript", "typescript", "node.js", "react", "aws", "docker", "agile", "leadership"],
+    "url": "https://example.com/jobs/20"
+  },
+  {
+    "title": "PHP Laravel Developer",
+    "company": "WebFlow Systems",
+    "location": "Remote",
+    "category": "backend",
+    "salary": "$80,000 - $120,000",
+    "description": "Build and maintain web applications using Laravel. Work with MySQL databases and RESTful APIs.",
+    "required_skills": ["php", "laravel", "mysql", "javascript", "html", "css", "rest", "git"],
+    "url": "https://example.com/jobs/21"
+  },
+  {
+    "title": "Flutter Developer",
+    "company": "CrossApp Inc.",
+    "location": "Austin, TX (Hybrid)",
+    "category": "mobile",
+    "salary": "$100,000 - $140,000",
+    "description": "Build beautiful cross-platform mobile apps using Flutter and Dart. Integrate with Firebase and REST APIs.",
+    "required_skills": ["flutter", "firebase", "rest", "git", "android", "ios"],
+    "url": "https://example.com/jobs/22"
+  },
+  {
+    "title": "NLP Research Engineer",
+    "company": "LangTech AI",
+    "location": "San Francisco, CA",
+    "category": "ai",
+    "salary": "$140,000 - $190,000",
+    "description": "Research and develop NLP models for text analysis, sentiment detection, and language generation.",
+    "required_skills": ["python", "nlp", "pytorch", "tensorflow", "machine learning", "deep learning", "numpy", "pandas"],
+    "url": "https://example.com/jobs/23"
+  },
+  {
+    "title": "Ruby on Rails Developer",
+    "company": "RailsForge",
+    "location": "Remote",
+    "category": "backend",
+    "salary": "$90,000 - $130,000",
+    "description": "Develop and maintain Ruby on Rails applications. Build RESTful APIs and integrate with third-party services.",
+    "required_skills": ["ruby", "rails", "postgresql", "redis", "javascript", "html", "css", "git"],
+    "url": "https://example.com/jobs/24"
+  },
+  {
+    "title": "Embedded Systems Engineer",
+    "company": "HardwarePlus",
+    "location": "San Diego, CA",
+    "category": "embedded",
+    "salary": "$110,000 - $150,000",
+    "description": "Develop firmware and embedded software for IoT devices. Work with C/C++ and real-time operating systems.",
+    "required_skills": ["c++", "linux", "python", "git"],
+    "url": "https://example.com/jobs/25"
+  },
+  {
+    "title": "QA Automation Engineer",
+    "company": "TestPro Solutions",
+    "location": "Chicago, IL",
+    "category": "qa",
+    "salary": "$90,000 - $125,000",
+    "description": "Design and implement automated test frameworks. Ensure software quality through comprehensive testing strategies.",
+    "required_skills": ["python", "javascript", "sql", "git", "docker", "agile", "jenkins"],
+    "url": "https://example.com/jobs/26"
+  },
+  {
+    "title": "Golang Backend Developer",
+    "company": "GoScale Systems",
+    "location": "Remote",
+    "category": "backend",
+    "salary": "$120,000 - $160,000",
+    "description": "Build high-performance microservices using Go. Design event-driven architectures and optimize for scale.",
+    "required_skills": ["go", "docker", "kubernetes", "postgresql", "redis", "rest", "grpc", "git"],
+    "url": "https://example.com/jobs/27"
+  },
+  {
+    "title": "Product Manager (Technical)",
+    "company": "ProductVision",
+    "location": "New York, NY",
+    "category": "management",
+    "salary": "$130,000 - $170,000",
+    "description": "Drive product strategy and roadmap. Work with engineering teams to deliver user-centric solutions.",
+    "required_skills": ["agile", "scrum", "jira", "confluence", "data analysis", "strategic planning", "leadership"],
+    "url": "https://example.com/jobs/28"
+  },
+  {
+    "title": "Computer Vision Engineer",
+    "company": "VisionAI Labs",
+    "location": "Pittsburgh, PA",
+    "category": "ai",
+    "salary": "$135,000 - $180,000",
+    "description": "Develop computer vision systems for object detection, recognition, and tracking. Deploy models to production.",
+    "required_skills": ["python", "computer vision", "opencv", "pytorch", "tensorflow", "deep learning", "docker", "aws"],
+    "url": "https://example.com/jobs/29"
+  },
+  {
+    "title": "Salesforce Developer",
+    "company": "CRM Solutions Inc.",
+    "location": "Remote",
+    "category": "crm",
+    "salary": "$100,000 - $140,000",
+    "description": "Customize and develop Salesforce solutions. Build integrations and automate business processes.",
+    "required_skills": ["javascript", "sql", "rest", "html", "css", "git"],
+    "url": "https://example.com/jobs/30"
+  },
+  {
+    "title": "Next.js Full Stack Developer",
+    "company": "ModernWeb Co.",
+    "location": "Remote",
+    "category": "fullstack",
+    "salary": "$115,000 - $155,000",
+    "description": "Build production-ready web applications using Next.js. Implement server-side rendering, API routes, and database integration.",
+    "required_skills": ["next.js", "react", "typescript", "node.js", "postgresql", "prisma", "css", "git"],
+    "url": "https://example.com/jobs/31"
+  },
+  {
+    "title": "C# .NET Developer",
+    "company": "Enterprise Apps Ltd.",
+    "location": "Charlotte, NC",
+    "category": "backend",
+    "salary": "$95,000 - $135,000",
+    "description": "Develop enterprise applications using C# and .NET framework. Build RESTful APIs and integrate with Azure services.",
+    "required_skills": ["c#", ".net", "asp.net", "sql", "azure", "rest", "git"],
+    "url": "https://example.com/jobs/32"
+  },
+  {
+    "title": "Svelte Developer",
+    "company": "FreshUI Labs",
+    "location": "Remote",
+    "category": "frontend",
+    "salary": "$90,000 - $130,000",
+    "description": "Build performant web applications using Svelte and SvelteKit. Create elegant and responsive user interfaces.",
+    "required_skills": ["svelte", "javascript", "typescript", "css", "html", "node.js", "git"],
+    "url": "https://example.com/jobs/33"
+  },
+  {
+    "title": "Database Administrator",
+    "company": "DataGuard Systems",
+    "location": "Phoenix, AZ",
+    "category": "database",
+    "salary": "$95,000 - $130,000",
+    "description": "Manage and optimize database systems. Ensure data integrity, backup strategies, and performance tuning.",
+    "required_skills": ["mysql", "postgresql", "mongodb", "sql", "linux", "python", "aws"],
+    "url": "https://example.com/jobs/34"
+  },
+  {
+    "title": "AI/ML Platform Engineer",
+    "company": "MLOps Systems",
+    "location": "San Francisco, CA (Hybrid)",
+    "category": "ai",
+    "salary": "$145,000 - $195,000",
+    "description": "Build and maintain ML infrastructure. Deploy and monitor models at scale using MLOps best practices.",
+    "required_skills": ["python", "docker", "kubernetes", "aws", "tensorflow", "pytorch", "machine learning", "linux"],
+    "url": "https://example.com/jobs/35"
+  },
+  {
+    "title": "WordPress Developer",
+    "company": "WebBuilder Agency",
+    "location": "Remote",
+    "category": "frontend",
+    "salary": "$60,000 - $90,000",
+    "description": "Build custom WordPress themes and plugins. Create responsive websites and optimize for SEO.",
+    "required_skills": ["php", "javascript", "html", "css", "mysql", "git"],
+    "url": "https://example.com/jobs/36"
+  },
+  {
+    "title": "Scala Developer",
+    "company": "FunctionalSoft",
+    "location": "Remote",
+    "category": "backend",
+    "salary": "$125,000 - $165,000",
+    "description": "Build distributed systems using Scala and functional programming. Work with Apache Spark and streaming data.",
+    "required_skills": ["scala", "java", "sql", "docker", "aws", "git"],
+    "url": "https://example.com/jobs/37"
+  },
+  {
+    "title": "Rust Systems Developer",
+    "company": "SystemsForge",
+    "location": "Portland, OR",
+    "category": "systems",
+    "salary": "$130,000 - $175,000",
+    "description": "Develop high-performance systems software using Rust. Build concurrent and memory-safe applications.",
+    "required_skills": ["rust", "linux", "docker", "git", "c++"],
+    "url": "https://example.com/jobs/38"
+  },
+  {
+    "title": "Power BI Analyst",
+    "company": "DataViz Corp",
+    "location": "Remote",
+    "category": "analytics",
+    "salary": "$75,000 - $110,000",
+    "description": "Create interactive dashboards and reports using Power BI. Analyze data for business intelligence and insights.",
+    "required_skills": ["power bi", "sql", "excel", "data analysis", "python"],
+    "url": "https://example.com/jobs/39"
+  },
+  {
+    "title": "MERN Stack Developer",
+    "company": "StackBuild Co.",
+    "location": "Bangalore, India",
+    "category": "fullstack",
+    "salary": "₹12L - ₹25L",
+    "description": "Build full-stack web applications using MongoDB, Express, React, and Node.js. Work in agile sprints.",
+    "required_skills": ["mongodb", "express", "react", "node.js", "javascript", "html", "css", "git"],
+    "url": "https://example.com/jobs/40"
+  },
+  {
+    "title": "Spring Boot Microservices Developer",
+    "company": "MicroArch Solutions",
+    "location": "Hyderabad, India",
+    "category": "backend",
+    "salary": "₹15L - ₹30L",
+    "description": "Design and develop microservices using Spring Boot. Implement API gateways and service discovery.",
+    "required_skills": ["java", "spring boot", "spring", "docker", "kubernetes", "mysql", "rest", "git"],
+    "url": "https://example.com/jobs/41"
+  },
+  {
+    "title": "Technical Writer",
+    "company": "DocuTech",
+    "location": "Remote",
+    "category": "writing",
+    "salary": "$70,000 - $100,000",
+    "description": "Create technical documentation, API references, and developer guides. Work with engineering teams.",
+    "required_skills": ["git", "html", "css", "javascript", "confluence", "notion"],
+    "url": "https://example.com/jobs/42"
+  },
+  {
+    "title": "Game Developer (Unity)",
+    "company": "PlayForge Studios",
+    "location": "Los Angeles, CA",
+    "category": "game",
+    "salary": "$85,000 - $130,000",
+    "description": "Develop interactive games using Unity engine. Implement game mechanics, UI systems, and multiplayer features.",
+    "required_skills": ["c#", "git"],
+    "url": "https://example.com/jobs/43"
+  },
+  {
+    "title": "ETL Developer",
+    "company": "DataFlow Inc.",
+    "location": "Minneapolis, MN",
+    "category": "data",
+    "salary": "$95,000 - $130,000",
+    "description": "Design and implement ETL pipelines. Work with data warehousing and business intelligence tools.",
+    "required_skills": ["python", "sql", "aws", "postgresql", "linux", "git"],
+    "url": "https://example.com/jobs/44"
+  },
+  {
+    "title": "Scrum Master",
+    "company": "AgileWorks",
+    "location": "Remote",
+    "category": "management",
+    "salary": "$100,000 - $140,000",
+    "description": "Facilitate agile ceremonies, remove impediments, and coach teams on agile best practices.",
+    "required_skills": ["agile", "scrum", "jira", "confluence", "leadership", "communication"],
+    "url": "https://example.com/jobs/45"
+  },
+  {
+    "title": "Systems Integration Engineer",
+    "company": "IntegratePro",
+    "location": "Houston, TX",
+    "category": "integration",
+    "salary": "$100,000 - $140,000",
+    "description": "Design and implement system integrations using APIs and middleware. Ensure seamless data flow between systems.",
+    "required_skills": ["python", "java", "rest", "sql", "aws", "docker", "linux", "git"],
+    "url": "https://example.com/jobs/46"
+  },
+  {
+    "title": "Nuxt.js Developer",
+    "company": "VueMasters",
+    "location": "Remote",
+    "category": "fullstack",
+    "salary": "$100,000 - $140,000",
+    "description": "Build server-rendered Vue.js applications using Nuxt.js. Implement SSR, API integration, and state management.",
+    "required_skills": ["vue", "vue.js", "nuxt.js", "javascript", "typescript", "node.js", "css", "git"],
+    "url": "https://example.com/jobs/47"
+  },
+  {
+    "title": "Penetration Tester",
+    "company": "CyberShield",
+    "location": "Remote",
+    "category": "security",
+    "salary": "$110,000 - $155,000",
+    "description": "Conduct penetration tests, vulnerability assessments, and security audits. Report findings and recommend fixes.",
+    "required_skills": ["python", "linux", "bash", "sql", "git"],
+    "url": "https://example.com/jobs/48"
+  },
+  {
+    "title": "GraphQL API Developer",
+    "company": "APIFirst Labs",
+    "location": "Remote",
+    "category": "backend",
+    "salary": "$105,000 - $145,000",
+    "description": "Design and implement GraphQL APIs for web and mobile applications. Optimize query performance and caching.",
+    "required_skills": ["graphql", "node.js", "typescript", "postgresql", "docker", "rest", "git"],
+    "url": "https://example.com/jobs/49"
+  },
+  {
+    "title": "AI Full Stack Developer",
+    "company": "IntelligentApps",
+    "location": "Pune, India",
+    "category": "fullstack",
+    "salary": "₹18L - ₹35L",
+    "description": "Build AI-powered web applications. Integrate machine learning models with modern web frontends and APIs.",
+    "required_skills": ["python", "react", "node.js", "tensorflow", "machine learning", "postgresql", "docker", "git"],
+    "url": "https://example.com/jobs/50"
+  }
+]

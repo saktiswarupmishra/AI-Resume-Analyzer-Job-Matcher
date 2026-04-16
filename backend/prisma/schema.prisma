@@ -1,0 +1,81 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  password  String
+  avatar    String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  resumes   Resume[]
+}
+
+model Resume {
+  id             Int              @id @default(autoincrement())
+  userId         Int
+  fileName       String
+  fileUrl        String           @db.Text
+  fileType       String
+  rawText        String?          @db.LongText
+  status         String           @default("uploaded") // uploaded, parsing, analyzed, failed
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+  user           User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  analysisResult AnalysisResult?
+  jobMatches     JobMatch[]
+  skills         Skill[]
+
+  @@index([userId])
+}
+
+model AnalysisResult {
+  id                Int      @id @default(autoincrement())
+  resumeId          Int      @unique
+  atsScore          Int      @default(0)
+  scoreBreakdown    Json?
+  sections          Json?    // detected sections: education, experience, etc.
+  suggestions       Json?    // array of suggestion objects
+  summary           String?  @db.Text
+  experienceYears   Float?
+  educationLevel    String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+  resume            Resume   @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+}
+
+model JobMatch {
+  id             Int      @id @default(autoincrement())
+  resumeId       Int
+  jobTitle       String
+  company        String
+  location       String?
+  description    String?  @db.Text
+  requiredSkills Json?
+  matchScore     Float    @default(0)
+  matchReason    String?  @db.Text
+  jobUrl         String?  @db.Text
+  createdAt      DateTime @default(now())
+  resume         Resume   @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+
+  @@index([resumeId])
+}
+
+model Skill {
+  id        Int      @id @default(autoincrement())
+  resumeId  Int
+  name      String
+  category  String   // technical, soft, tool, language
+  level     String?  // beginner, intermediate, advanced
+  createdAt DateTime @default(now())
+  resume    Resume   @relation(fields: [resumeId], references: [id], onDelete: Cascade)
+
+  @@index([resumeId])
+}
