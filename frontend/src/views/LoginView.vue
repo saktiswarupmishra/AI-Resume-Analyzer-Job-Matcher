@@ -25,7 +25,7 @@
       </form>
 
       <p class="auth-footer">
-        Don't have an account? <router-link to="/register">Create one</router-link>
+        Don't have an account? <router-link to="/register">Register here</router-link>
       </p>
 
 
