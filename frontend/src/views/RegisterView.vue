@@ -33,7 +33,7 @@
       </form>
 
       <p class="auth-footer">
-        Already have an account? <router-link to="/login">Sign in</router-link>
+        Already have an account? <router-link to="/login">login</router-link>
       </p>
     </div>
   </div>
